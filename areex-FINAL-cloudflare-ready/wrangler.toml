@@ -14,11 +14,10 @@ class_name = "OtpStore"
 tag = "v1-otp-store"
 new_sqlite_classes = ["OtpStore"]
 
+# ...
 [vars]
-FIREBASE_API_KEY = "AIzaSyCc6_SOrocX-zRERhMkxY4iJmr2l3hd2eg"
-# EmailJS (free, 200 emails/month) — no DNS records needed anywhere.
-# Get these 3 values from emailjs.com: Email Services > Service ID,
-# Email Templates > Template ID, Account > General > Public Key.
 EMAILJS_SERVICE_ID = "service_gx4oyr5"
 EMAILJS_TEMPLATE_ID = "lqb3bn9"
-EMAILJS_PUBLIC_KEY = "nEEzI9QKpyPQv_bP4"
+FIREBASE_API_KEY = "AIzaSyCc6_SOrocX-zRERhMkxY4iJmr2l3hd2eg"
+# ...
+
