@@ -12,7 +12,7 @@ class_name = "OtpStore"
 
 [[migrations]]
 tag = "v1-otp-store"
-new_classes = ["OtpStore"]
+new_sqlite_classes = ["OtpStore"]
 
 [vars]
 FIREBASE_API_KEY = "AIzaSyCc6_SOrocX-zRERhMkxY4iJmr2l3hd2eg"
