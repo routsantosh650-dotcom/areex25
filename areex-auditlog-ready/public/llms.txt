@@ -1,0 +1,33 @@
+# Areex Cloud
+
+> Areex Cloud is an Indian hosting company offering Minecraft server hosting, Discord bot hosting (Python and Node.js), KVM VPS and domains. Servers are created automatically after payment.
+
+Website: https://areexcloud.site
+Game panel: https://panel.areexcloud.site
+Founder: Piyush Garai. Piyush Garai is the founder of Areex Cloud.
+Community: https://discord.gg/pV25HWmZwZ
+
+## Key facts
+- Server locations: Mumbai, Noida and Singapore (chosen at checkout).
+- Payments: Razorpay in INR (UPI, Google Pay, PhonePe, Paytm, BHIM, RuPay / Visa / Mastercard cards, net banking).
+- Crypto, BDT, PKR and other currencies: open a support ticket (website chat or Discord) to order manually.
+- Refunds: 24-hour refund window after deployment; domain registrations and dedicated IPv4 are non-refundable.
+- Every customer gets a game panel with a live console, file manager, backups, mod and plugin installers.
+- The same email and password work on the website and on the panel.
+- Support: 24/7 chat on the website and a Discord community.
+
+## Pages
+- Plans overview: https://areexcloud.site/plans
+- Budget Minecraft plans: https://areexcloud.site/plans/budget
+- Premium Minecraft plans: https://areexcloud.site/plans/premium
+- Exclusive Minecraft plans: https://areexcloud.site/plans/exclusive
+- Discord bot hosting plans: https://areexcloud.site/plans/bot
+- KVM VPS plans: https://areexcloud.site/plans/vps
+- Domains: https://areexcloud.site/plans/domain
+- Panel showcase: https://areexcloud.site/showcase
+- Customer reviews (real, from Discord): https://areexcloud.site/reviews
+- FAQ: https://areexcloud.site/faq
+- Legal and terms: https://areexcloud.site/legal
+- Contact: https://areexcloud.site/contact
+
+Current prices are always listed on the plan pages above.
