@@ -1,0 +1,33 @@
+name = "areex25"
+main = "worker.ts"
+compatibility_date = "2025-04-01"
+
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"
+
+[[durable_objects.bindings]]
+name = "OTP_DO"
+class_name = "OtpStore"
+
+[[migrations]]
+tag = "v1-otp-store"
+new_sqlite_classes = ["OtpStore"]
+
+[vars]
+FIREBASE_API_KEY = "AIzaSyCc6_SOrocX-zRERhMkxY4iJmr2l3hd2eg"
+# EmailJS (free, 200 emails/month) — no DNS records needed anywhere.
+# Get these 3 values from emailjs.com: Email Services > Service ID,
+# Email Templates > Template ID, Account > General > Public Key.
+EMAILJS_SERVICE_ID = "service_gx4oyr5"
+# Must be the full "Template ID" (template_xxxxxxx) shown in Email Templates,
+# NOT the short id in the editor URL.
+EMAILJS_TEMPLATE_ID = "template_j9glx0m"
+EMAILJS_PUBLIC_KEY = "nEEzI9QKpyPQv_bP4"
+# EMAILJS_PRIVATE_KEY is intentionally absent — set it as a Cloudflare Worker Secret.
+
+# Razorpay. The key id is public (it ships in the browser checkout anyway), so it lives here.
+# Get it from razorpay.com > Settings > API Keys > Live.
+RAZORPAY_KEY_ID = "rzp_live_TkinQdreXQa5Ww"
+# RAZORPAY_KEY_SECRET is intentionally absent — set it as a Cloudflare Worker Secret.
+# The Worker refuses to take payments until that Secret exists.
